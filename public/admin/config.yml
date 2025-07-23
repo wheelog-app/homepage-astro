@@ -10,9 +10,9 @@ media_folder: "public/uploads"
 public_folder: "/uploads"
 
 collections:
-  - name: "news"
-    label: "ニュース"
-    folder: "src/content/news"
+  - name: "blog"
+    label: "ブログ"
+    folder: "src/content/blog"
     create: true
     slug: "{{slug}}"
     fields:
